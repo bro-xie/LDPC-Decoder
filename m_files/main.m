@@ -17,6 +17,11 @@ for cnt = 1 : length (degree_j)
 end
 fclose (fid);
 
+%% print CNU_SubModule.
+fid = fopen ("..\v_files_gen_by_scripts\CNU_SubModule.v", 'wt');
+print_CNU_SubModule (fid);
+fclose (fid);
+
 %% print VNU.
 fid = fopen ("..\v_files_gen_by_scripts\VNU.v", 'wt');
 for cnt = 1 : length (degree_i)

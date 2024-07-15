@@ -165,3 +165,4 @@ parameter quan_width = 6)
 		end
 	end
 endmodule
+

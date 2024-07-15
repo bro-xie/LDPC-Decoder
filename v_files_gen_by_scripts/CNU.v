@@ -109,25 +109,25 @@ in4out2 #(quan_width) in4out2_L3_14 (clk, rst, cnt, init_cnt + 3, cache[40], cac
 in4out2 #(quan_width) in4out2_L4_15 (clk, rst, cnt, init_cnt + 4, cache[44], cache[45], cache[46], cache[47], cache[50], cache[51]);
 in4out2 #(quan_width) in4out2_L5_16 (clk, rst, cnt, init_cnt + 5, cache[48], cache[49], cache[50], cache[51], cache[52], cache[53]);
 
-assign_C2V #(quan_width) assign_C2V_L5_0 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_1, final_sign_1, C2V_1);
-assign_C2V #(quan_width) assign_C2V_L5_1 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_2, final_sign_2, C2V_2);
-assign_C2V #(quan_width) assign_C2V_L5_2 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_3, final_sign_3, C2V_3);
-assign_C2V #(quan_width) assign_C2V_L5_3 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_4, final_sign_4, C2V_4);
-assign_C2V #(quan_width) assign_C2V_L5_4 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_5, final_sign_5, C2V_5);
-assign_C2V #(quan_width) assign_C2V_L5_5 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_6, final_sign_6, C2V_6);
-assign_C2V #(quan_width) assign_C2V_L5_6 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_7, final_sign_7, C2V_7);
-assign_C2V #(quan_width) assign_C2V_L5_7 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_8, final_sign_8, C2V_8);
-assign_C2V #(quan_width) assign_C2V_L5_8 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_9, final_sign_9, C2V_9);
-assign_C2V #(quan_width) assign_C2V_L5_9 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_10, final_sign_10, C2V_10);
-assign_C2V #(quan_width) assign_C2V_L5_10 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_11, final_sign_11, C2V_11);
-assign_C2V #(quan_width) assign_C2V_L5_11 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_12, final_sign_12, C2V_12);
-assign_C2V #(quan_width) assign_C2V_L5_12 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_13, final_sign_13, C2V_13);
-assign_C2V #(quan_width) assign_C2V_L5_13 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_14, final_sign_14, C2V_14);
-assign_C2V #(quan_width) assign_C2V_L5_14 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_15, final_sign_15, C2V_15);
-assign_C2V #(quan_width) assign_C2V_L5_15 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_16, final_sign_16, C2V_16);
-assign_C2V #(quan_width) assign_C2V_L5_16 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_17, final_sign_17, C2V_17);
-assign_C2V #(quan_width) assign_C2V_L5_17 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_18, final_sign_18, C2V_18);
-assign_C2V #(quan_width) assign_C2V_L5_18 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_19, final_sign_19, C2V_19);
+assign_C2V #(quan_width) assign_C2V_L6_0 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_1, final_sign_1, C2V_1);
+assign_C2V #(quan_width) assign_C2V_L6_1 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_2, final_sign_2, C2V_2);
+assign_C2V #(quan_width) assign_C2V_L6_2 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_3, final_sign_3, C2V_3);
+assign_C2V #(quan_width) assign_C2V_L6_3 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_4, final_sign_4, C2V_4);
+assign_C2V #(quan_width) assign_C2V_L6_4 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_5, final_sign_5, C2V_5);
+assign_C2V #(quan_width) assign_C2V_L6_5 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_6, final_sign_6, C2V_6);
+assign_C2V #(quan_width) assign_C2V_L6_6 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_7, final_sign_7, C2V_7);
+assign_C2V #(quan_width) assign_C2V_L6_7 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_8, final_sign_8, C2V_8);
+assign_C2V #(quan_width) assign_C2V_L6_8 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_9, final_sign_9, C2V_9);
+assign_C2V #(quan_width) assign_C2V_L6_9 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_10, final_sign_10, C2V_10);
+assign_C2V #(quan_width) assign_C2V_L6_10 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_11, final_sign_11, C2V_11);
+assign_C2V #(quan_width) assign_C2V_L6_11 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_12, final_sign_12, C2V_12);
+assign_C2V #(quan_width) assign_C2V_L6_12 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_13, final_sign_13, C2V_13);
+assign_C2V #(quan_width) assign_C2V_L6_13 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_14, final_sign_14, C2V_14);
+assign_C2V #(quan_width) assign_C2V_L6_14 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_15, final_sign_15, C2V_15);
+assign_C2V #(quan_width) assign_C2V_L6_15 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_16, final_sign_16, C2V_16);
+assign_C2V #(quan_width) assign_C2V_L6_16 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_17, final_sign_17, C2V_17);
+assign_C2V #(quan_width) assign_C2V_L6_17 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_18, final_sign_18, C2V_18);
+assign_C2V #(quan_width) assign_C2V_L6_18 (clk, rst, cnt, init_cnt + 6, cache[52], cache[53], V2C_19, final_sign_19, C2V_19);
 
 endmodule
 
@@ -246,26 +246,28 @@ in4out2 #(quan_width) in4out2_L2_14 (clk, rst, cnt, init_cnt + 2, cache[37], cac
 in4out2 #(quan_width) in4out2_L3_15 (clk, rst, cnt, init_cnt + 3, cache[41], cache[42], cache[43], cache[44], cache[51], cache[52]);
 in4out2 #(quan_width) in4out2_L3_16 (clk, rst, cnt, init_cnt + 3, cache[45], cache[46], cache[47], cache[48], cache[53], cache[54]);
 in4out2 #(quan_width) in4out2_L4_17 (clk, rst, cnt, init_cnt + 4, cache[49], cache[50], cache[51], cache[52], cache[55], cache[56]);
-in4out2 #(quan_width) in4out2_L4_18 (clk, rst, cnt, init_cnt + 5, cache[53], cache[54], cache[55], cache[56], cache[57], cache[58]);
+in4out2 #(quan_width) in4out2_L5_18 (clk, rst, cnt, init_cnt + 5, cache[53], cache[54], cache[55], cache[56], cache[57], cache[58]);
 
-assign_C2V #(quan_width) assign_C2V_L5_0 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_1, final_sign_1, C2V_1);
-assign_C2V #(quan_width) assign_C2V_L5_1 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_2, final_sign_2, C2V_2);
-assign_C2V #(quan_width) assign_C2V_L5_2 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_3, final_sign_3, C2V_3);
-assign_C2V #(quan_width) assign_C2V_L5_3 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_4, final_sign_4, C2V_4);
-assign_C2V #(quan_width) assign_C2V_L5_4 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_5, final_sign_5, C2V_5);
-assign_C2V #(quan_width) assign_C2V_L5_5 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_6, final_sign_6, C2V_6);
-assign_C2V #(quan_width) assign_C2V_L5_6 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_7, final_sign_7, C2V_7);
-assign_C2V #(quan_width) assign_C2V_L5_7 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_8, final_sign_8, C2V_8);
-assign_C2V #(quan_width) assign_C2V_L5_8 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_9, final_sign_9, C2V_9);
-assign_C2V #(quan_width) assign_C2V_L5_9 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_10, final_sign_10, C2V_10);
-assign_C2V #(quan_width) assign_C2V_L5_10 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_11, final_sign_11, C2V_11);
-assign_C2V #(quan_width) assign_C2V_L5_11 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_12, final_sign_12, C2V_12);
-assign_C2V #(quan_width) assign_C2V_L5_12 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_13, final_sign_13, C2V_13);
-assign_C2V #(quan_width) assign_C2V_L5_13 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_14, final_sign_14, C2V_14);
-assign_C2V #(quan_width) assign_C2V_L5_14 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_15, final_sign_15, C2V_15);
-assign_C2V #(quan_width) assign_C2V_L5_15 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_16, final_sign_16, C2V_16);
-assign_C2V #(quan_width) assign_C2V_L5_16 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_17, final_sign_17, C2V_17);
-assign_C2V #(quan_width) assign_C2V_L5_17 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_18, final_sign_18, C2V_18);
-assign_C2V #(quan_width) assign_C2V_L5_18 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_19, final_sign_19, C2V_19);
-assign_C2V #(quan_width) assign_C2V_L5_19 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_20, final_sign_20, C2V_20);
+assign_C2V #(quan_width) assign_C2V_L6_0 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_1, final_sign_1, C2V_1);
+assign_C2V #(quan_width) assign_C2V_L6_1 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_2, final_sign_2, C2V_2);
+assign_C2V #(quan_width) assign_C2V_L6_2 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_3, final_sign_3, C2V_3);
+assign_C2V #(quan_width) assign_C2V_L6_3 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_4, final_sign_4, C2V_4);
+assign_C2V #(quan_width) assign_C2V_L6_4 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_5, final_sign_5, C2V_5);
+assign_C2V #(quan_width) assign_C2V_L6_5 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_6, final_sign_6, C2V_6);
+assign_C2V #(quan_width) assign_C2V_L6_6 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_7, final_sign_7, C2V_7);
+assign_C2V #(quan_width) assign_C2V_L6_7 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_8, final_sign_8, C2V_8);
+assign_C2V #(quan_width) assign_C2V_L6_8 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_9, final_sign_9, C2V_9);
+assign_C2V #(quan_width) assign_C2V_L6_9 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_10, final_sign_10, C2V_10);
+assign_C2V #(quan_width) assign_C2V_L6_10 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_11, final_sign_11, C2V_11);
+assign_C2V #(quan_width) assign_C2V_L6_11 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_12, final_sign_12, C2V_12);
+assign_C2V #(quan_width) assign_C2V_L6_12 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_13, final_sign_13, C2V_13);
+assign_C2V #(quan_width) assign_C2V_L6_13 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_14, final_sign_14, C2V_14);
+assign_C2V #(quan_width) assign_C2V_L6_14 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_15, final_sign_15, C2V_15);
+assign_C2V #(quan_width) assign_C2V_L6_15 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_16, final_sign_16, C2V_16);
+assign_C2V #(quan_width) assign_C2V_L6_16 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_17, final_sign_17, C2V_17);
+assign_C2V #(quan_width) assign_C2V_L6_17 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_18, final_sign_18, C2V_18);
+assign_C2V #(quan_width) assign_C2V_L6_18 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_19, final_sign_19, C2V_19);
+assign_C2V #(quan_width) assign_C2V_L6_19 (clk, rst, cnt, init_cnt + 6, cache[57], cache[58], V2C_20, final_sign_20, C2V_20);
+
 endmodule
+

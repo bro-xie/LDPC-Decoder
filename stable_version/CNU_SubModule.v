@@ -1,5 +1,5 @@
 module get_abs #(parameter quan_width = 6)
-(input wire clk, input wire rst, input wire [7:0] cnt, input wire [7:0] target_cnt, input wire signed [quan_width-1:0] in_data, output reg [quan_width-1:0] out_data);
+(input wire clk, input wire rst, input wire [7:0] cnt, input wire [7:0] target_cnt, input wire signed [quan_width-1:0] in_data, output reg [quan_width-1:0] out_data);   
 always @ (posedge clk or negedge rst) begin
     if (!rst) begin out_data <= 0; end
     else begin
@@ -52,18 +52,19 @@ always @ (posedge clk or negedge rst) begin
         if (cnt == target_cnt) begin
             if (in_data1 < in_data2) begin
                 if (in_data3 <= in_data1) begin out_data1 <= in_data3; out_data2 <= in_data1; end
-                else if (in_data2 <= in_data3) begin out_data1 <= in_data1; out_data2 <= in_data2; end
+                else if (in_data2 <= in_data3) begin out_data1 <= in_data1; out_data2 <= in_data2; end 
                 else begin out_data1 <= in_data1; out_data2 <= in_data3; end
             end
             else begin//in_data2 < in_data1
                 if (in_data3 <= in_data2) begin out_data1 <= in_data3; out_data2 <= in_data2; end
-                else if (in_data1 <= in_data3) begin out_data1 <= in_data2; out_data2 <= in_data1; end
+                else if (in_data1 <= in_data3) begin out_data1 <= in_data2; out_data2 <= in_data1; end 
                 else begin out_data1 <= in_data2; out_data2 <= in_data3; end
             end
         end
     end
 end
 endmodule
+
 
 module in4out2 #( parameter quan_width = 6)
 (input wire clk, input wire rst, input wire [7:0] cnt, input wire [7:0] target_cnt, input wire [quan_width-1:0] in_data1,

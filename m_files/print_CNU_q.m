@@ -86,7 +86,7 @@ while (length (vector) > 2)
         vector(1) + ", " + vector(2) + ", " + vector(3) + ", " + vector(4) + ...
         ", cache[" + string(next_cache) + "], cache[" + string(next_cache + 1) + "]);\n");
     vector = [vector, "cache[" + string(next_cache) + "]", "cache[" + string(next_cache + 1) + "]"];
-    index = [index, index(1) + 1, index(1) + 1];
+    index = [index, index(4) + 1, index(4) + 1];
     vector = vector (5 : end);
     index = index (5 : end);
     module_cnt = module_cnt + 1;
